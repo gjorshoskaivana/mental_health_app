@@ -46,8 +46,7 @@ class _AppointmentFormState extends State<AppointmentForm> {
                     ),
                     SizedBox(height: 20.0,),
                     DateTimeField(
-                      decoration: textInputDecoration.copyWith(hintText: 'Date and Time'),
-
+                      decoration: textInputDecoration,
                       format: DateFormat('yyyy-MM-dd HH:mm'),
                       onShowPicker: (context,  val) async {
                         final date = await showDatePicker(
@@ -68,7 +67,7 @@ class _AppointmentFormState extends State<AppointmentForm> {
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(primary: Colors.indigo[400]),
                       child: Text(
-                        'Post',
+                        'Make Appointment',
                         style: TextStyle(color: Colors.white),
                       ),
                       onPressed: () async {
