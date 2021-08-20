@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "337664832433",
+    "project_id": "mental-health-app-64ae8",
+    "storage_bucket": "mental-health-app-64ae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337664832433:android:4cd975c88a2a4f15500390",
+        "android_client_info": {
+          "package_name": "mk.ukim.finki.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337664832433-jm67fhq80u8gpfgjv5i9vmtdfcj5ohvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlqx_frkKS4KPCy0BN14Qywt8CZ3FkG0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337664832433-jm67fhq80u8gpfgjv5i9vmtdfcj5ohvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
